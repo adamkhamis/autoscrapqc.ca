@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n="meta.title">ScrapAutoQC — Argent Comptant pour Voitures et Ferraille | Gatineau et Ottawa</title>
+<meta name="description" data-i18n-attr="content" data-i18n="meta.desc" content="Vendez votre voiture usagée ou de ferraille contre argent comptant à Gatineau QC et Ottawa ON. Remorquage gratuit, soumission instantanée, ramassage le jour même.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23113322'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle' fill='%2334d17f'%3E%24%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Top utility bar -->
+<div class="topbar">
+  <div class="container topbar__inner">
+    <p class="topbar__text">
+      <span data-i18n="topbar.serving">Fièrement au service de Gatineau, QC et Ottawa, ON</span>
+    </p>
+    <div class="topbar__right">
+      <a href="tel:+18194840270" class="topbar__phone">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1l-2.2 2.2z" stroke="currentColor" stroke-width="1.6"/></svg>
+        (819) 484-0270
+      </a>
+      <div class="lang-toggle" role="group" aria-label="Language selector">
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+        <button type="button" class="lang-btn is-active" data-lang="fr">FR</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="header">
+  <div class="container header__inner">
+    <a href="#top" class="logo">
+      <svg width="34" height="34" viewBox="0 0 48 48" fill="none">
+        <rect width="48" height="48" rx="12" fill="#16a34a"/>
+        <path d="M10 30l2.5-8a3 3 0 0 1 2.9-2.1h13.2a3 3 0 0 1 2.9 2.1L34 30" stroke="#0b1e17" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect x="8" y="30" width="32" height="6" rx="2" fill="#0b1e17"/>
+        <circle cx="16" cy="36" r="3" fill="#f5b700"/>
+        <circle cx="32" cy="36" r="3" fill="#f5b700"/>
+      </svg>
+      <span>ScrapAuto<em>QC</em></span>
+    </a>
+
+    <nav class="nav" id="siteNav">
+      <a href="#how" data-i18n="nav.how">Comment ça marche</a>
+      <a href="#why" data-i18n="nav.why">Pourquoi nous</a>
+      <a href="#areas" data-i18n="nav.areas">Zone desservie</a>
+      <a href="#faq" data-i18n="nav.faq">FAQ</a>
+    </nav>
+
+    <div class="header__cta">
+      <a href="#quote" class="btn btn--primary" data-i18n="nav.quoteBtn">Soumission gratuite</a>
+    </div>
+
+    <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#how" data-i18n="nav.how">Comment ça marche</a>
+    <a href="#why" data-i18n="nav.why">Pourquoi nous</a>
+    <a href="#areas" data-i18n="nav.areas">Zone desservie</a>
+    <a href="#faq" data-i18n="nav.faq">FAQ</a>
+    <a href="#quote" class="btn btn--primary" data-i18n="nav.quoteBtn">Soumission gratuite</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Argent comptant · Remorquage gratuit · Ramassage le jour même</p>
+        <h1 data-i18n="hero.title">Transformez votre voiture usagée en argent comptant — aujourd'hui</h1>
+        <p class="hero__sub" data-i18n="hero.sub">Nous achetons les véhicules de ferraille, endommagés ou usagés partout à Gatineau, QC et Ottawa, ON. Obtenez une soumission instantanée et nous la remorquons gratuitement — argent comptant à la livraison.</p>
+        <div class="hero__actions">
+          <a href="tel:+18194840270" class="btn btn--accent btn--lg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1l-2.2 2.2z" fill="currentColor"/></svg>
+            <span data-i18n="hero.callBtn">Appelez (819) 484-0270</span>
+          </a>
+          <a href="#quote" class="btn btn--outline-light btn--lg" data-i18n="hero.quoteBtn">Obtenir ma soumission gratuite</a>
+        </div>
+        <ul class="hero__badges">
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#34d17f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="hero.badge1">Remorquage gratuit, sans frais cachés</span></li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#34d17f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="hero.badge2">Peu importe l'état — fonctionnelle ou non</span></li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#34d17f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="hero.badge3">Paiement sur place</span></li>
+        </ul>
+      </div>
+
+      <div class="hero__card" id="quote">
+        <h2 data-i18n="form.title">Obtenez votre soumission gratuite</h2>
+        <p class="hero__card-sub" data-i18n="form.sub">Remplissez ce formulaire et nous vous répondrons rapidement — habituellement en moins d'une heure.</p>
+        <form id="quoteForm" novalidate>
+          <div class="form-row">
+            <div class="field">
+              <label for="year" data-i18n="form.year">Année</label>
+              <input type="text" id="year" name="year" inputmode="numeric" placeholder="2014" required>
+            </div>
+            <div class="field">
+              <label for="make" data-i18n="form.make">Marque</label>
+              <input type="text" id="make" name="make" placeholder="Honda" required>
+            </div>
+            <div class="field">
+              <label for="model" data-i18n="form.model">Modèle</label>
+              <input type="text" id="model" name="model" placeholder="Civic" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="condition" data-i18n="form.condition">État du véhicule</label>
+            <select id="condition" name="condition" required>
+              <option value="" data-i18n="form.conditionSelect">Sélectionnez l'état…</option>
+              <option value="running" data-i18n="form.conditionRunning">Fonctionnelle / roulante</option>
+              <option value="not-running" data-i18n="form.conditionNotRunning">Non fonctionnelle</option>
+              <option value="accident" data-i18n="form.conditionAccident">Accidentée / endommagée</option>
+              <option value="no-title" data-i18n="form.conditionNoTitle">Sans certificat / immatriculation</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="name" data-i18n="form.name">Nom complet</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="field">
+              <label for="phone" data-i18n="form.phone">Numéro de téléphone</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="city" data-i18n="form.city">Ville</label>
+            <select id="city" name="city" required>
+              <option value="" data-i18n="form.citySelect">Sélectionnez votre ville…</option>
+              <option value="Gatineau">Gatineau</option>
+              <option value="Hull">Hull</option>
+              <option value="Aylmer">Aylmer</option>
+              <option value="Ottawa">Ottawa</option>
+              <option value="Nepean">Nepean</option>
+              <option value="Kanata">Kanata</option>
+              <option value="Orleans">Orleans</option>
+              <option value="Barrhaven">Barrhaven</option>
+              <option value="Gloucester">Gloucester</option>
+              <option value="other" data-i18n="form.cityOther">Autre</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="details" data-i18n="form.details">Détails supplémentaires (optionnel)</label>
+            <textarea id="details" name="details" rows="3" data-i18n-placeholder="form.detailsPlaceholder" placeholder="Autre chose que nous devrions savoir?"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--block" data-i18n="form.submit">Obtenir ma soumission gratuite</button>
+          <p class="form-note" data-i18n="form.note">Sans obligation. Nous vous contacterons par texto ou téléphone avec une offre.</p>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust bar -->
+  <section class="trustbar">
+    <div class="container trustbar__inner">
+      <div class="trust-item">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M3 13l1.5-5A2 2 0 0 1 6.4 6.5h11.2A2 2 0 0 1 19.5 8L21 13" stroke="#34d17f" stroke-width="1.8" stroke-linecap="round"/><rect x="3" y="13" width="18" height="5" rx="1.5" stroke="#34d17f" stroke-width="1.8"/><circle cx="7.5" cy="18" r="1.5" fill="#34d17f"/><circle cx="16.5" cy="18" r="1.5" fill="#34d17f"/></svg>
+        <span data-i18n="trust.item1">Remorquage gratuit</span>
+      </div>
+      <div class="trust-item">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#34d17f" stroke-width="1.8"/><path d="M12 7v5l3.5 2" stroke="#34d17f" stroke-width="1.8" stroke-linecap="round"/></svg>
+        <span data-i18n="trust.item2">Ramassage le jour même</span>
+      </div>
+      <div class="trust-item">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v6c0 4.5-3 7.7-7 9-4-1.3-7-4.5-7-9V6l7-3z" stroke="#34d17f" stroke-width="1.8" stroke-linejoin="round"/></svg>
+        <span data-i18n="trust.item3">Licencié et assuré</span>
+      </div>
+      <div class="trust-item">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M4 7h16M6 7l1 12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2l1-12M9 7V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3" stroke="#34d17f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span data-i18n="trust.item4">Recyclage écoresponsable</span>
+      </div>
+      <div class="trust-item">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 2v20M17 5.5c0-1.9-2.2-3.5-5-3.5s-5 1.6-5 3.5S9.2 9 12 9s5 1.6 5 3.5-2.2 3.5-5 3.5-5-1.6-5-3.5" stroke="#34d17f" stroke-width="1.8" stroke-linecap="round"/></svg>
+        <span data-i18n="trust.item5">Meilleurs prix payés</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="section" id="how">
+    <div class="container">
+      <p class="section-eyebrow" data-i18n="how.eyebrow">Processus simple</p>
+      <h2 class="section-title" data-i18n="how.title">Comment ça marche</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step__num">1</div>
+          <h3 data-i18n="how.step1Title">Parlez-nous de votre voiture</h3>
+          <p data-i18n="how.step1Text">Appelez-nous ou remplissez notre formulaire rapide avec l'année, la marque, le modèle et l'état de votre véhicule.</p>
+        </div>
+        <div class="step">
+          <div class="step__num">2</div>
+          <h3 data-i18n="how.step2Title">Recevez une offre instantanée</h3>
+          <p data-i18n="how.step2Text">Nous vous donnerons une soumission juste et sans obligation — habituellement en moins d'une heure.</p>
+        </div>
+        <div class="step">
+          <div class="step__num">3</div>
+          <h3 data-i18n="how.step3Title">Nous remorquons et vous êtes payé</h3>
+          <p data-i18n="how.step3Text">Choisissez une heure de ramassage qui vous convient. Le remorquage est gratuit et le paiement se fait sur place.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why us -->
+  <section class="section section--alt" id="why">
+    <div class="container">
+      <p class="section-eyebrow" data-i18n="why.eyebrow">Pourquoi ScrapAutoQC</p>
+      <h2 class="section-title" data-i18n="why.title">Pourquoi nous choisir</h2>
+      <div class="grid grid--3">
+        <div class="card">
+          <div class="card__icon">💰</div>
+          <h3 data-i18n="why.card1Title">Garantie du meilleur prix</h3>
+          <p data-i18n="why.card1Text">Nous offrons des prix compétitifs et justes pour la ferraille et les véhicules usagés dans toute la région.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">🚚</div>
+          <h3 data-i18n="why.card2Title">Ramassage gratuit, sans frais cachés</h3>
+          <p data-i18n="why.card2Text">Le remorquage est toujours gratuit. La soumission que nous vous donnons est le montant que vous recevez.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">🚗</div>
+          <h3 data-i18n="why.card3Title">Toute marque, modèle ou état</h3>
+          <p data-i18n="why.card3Text">Fonctionnelle ou non, accidentée, endommagée par l'eau ou sans certificat — nous nous en occupons.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">⚡</div>
+          <h3 data-i18n="why.card4Title">Service rapide et courtois</h3>
+          <p data-i18n="why.card4Text">La plupart des ramassages peuvent être planifiés le jour même ou le lendemain, à un moment qui vous convient.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">♻️</div>
+          <h3 data-i18n="why.card5Title">Recyclage responsable</h3>
+          <p data-i18n="why.card5Text">Les véhicules sont recyclés et disposés adéquatement, conformément à la réglementation environnementale.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">📍</div>
+          <h3 data-i18n="why.card6Title">Local et bilingue</h3>
+          <p data-i18n="why.card6Text">Une équipe locale au service de la région de la capitale nationale, en français et en anglais.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service area -->
+  <section class="section" id="areas">
+    <div class="container">
+      <p class="section-eyebrow" data-i18n="areas.eyebrow">Où nous opérons</p>
+      <h2 class="section-title" data-i18n="areas.title">Fièrement au service de Gatineau et Ottawa</h2>
+      <p class="section-lead" data-i18n="areas.lead">Nous ramassons des véhicules partout dans la région de la capitale nationale, des deux côtés de la rivière.</p>
+      <div class="areas">
+        <div class="areas__col">
+          <h3 data-i18n="areas.qcTitle">Gatineau, QC et environs</h3>
+          <div class="chips">
+            <span class="chip">Gatineau</span>
+            <span class="chip">Hull</span>
+            <span class="chip">Aylmer</span>
+            <span class="chip">Buckingham</span>
+            <span class="chip">Masson-Angers</span>
+            <span class="chip">Chelsea</span>
+          </div>
+        </div>
+        <div class="areas__col">
+          <h3 data-i18n="areas.onTitle">Ottawa, ON et environs</h3>
+          <div class="chips">
+            <span class="chip">Ottawa</span>
+            <span class="chip">Nepean</span>
+            <span class="chip">Kanata</span>
+            <span class="chip">Orleans</span>
+            <span class="chip">Barrhaven</span>
+            <span class="chip">Gloucester</span>
+            <span class="chip">Vanier</span>
+          </div>
+        </div>
+      </div>
+      <p class="areas__note" data-i18n="areas.note">Vous ne voyez pas votre ville? Appelez-nous — nous couvrons probablement votre secteur.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt" id="faq">
+    <div class="container">
+      <p class="section-eyebrow" data-i18n="faq.eyebrow">Questions</p>
+      <h2 class="section-title" data-i18n="faq.title">Foire aux questions</h2>
+      <div class="accordion" id="accordion">
+        <div class="accordion__item">
+          <button class="accordion__trigger" aria-expanded="false">
+            <span data-i18n="faq.q1">Ai-je besoin du certificat pour vendre ma voiture?</span>
+            <span class="accordion__icon">+</span>
+          </button>
+          <div class="accordion__panel">
+            <p data-i18n="faq.a1">Dans la plupart des cas oui, mais nous pouvons souvent tout de même vous aider si vous ne l'avez pas — appelez-nous pour discuter de votre situation.</p>
+          </div>
+        </div>
+        <div class="accordion__item">
+          <button class="accordion__trigger" aria-expanded="false">
+            <span data-i18n="faq.q2">Remorquez-vous les véhicules non fonctionnels?</span>
+            <span class="accordion__icon">+</span>
+          </button>
+          <div class="accordion__panel">
+            <p data-i18n="faq.a2">Absolument. Fonctionnelle ou non, notre dépanneuse peut ramasser votre véhicule chez vous, au travail ou partout où il est stationné.</p>
+          </div>
+        </div>
+        <div class="accordion__item">
+          <button class="accordion__trigger" aria-expanded="false">
+            <span data-i18n="faq.q3">À quelle vitesse pouvez-vous ramasser ma voiture?</span>
+            <span class="accordion__icon">+</span>
+          </button>
+          <div class="accordion__panel">
+            <p data-i18n="faq.a3">De nombreux ramassages peuvent être planifiés le jour même ou le lendemain, selon votre emplacement et votre disponibilité.</p>
+          </div>
+        </div>
+        <div class="accordion__item">
+          <button class="accordion__trigger" aria-expanded="false">
+            <span data-i18n="faq.q4">Quelles régions desservez-vous?</span>
+            <span class="accordion__icon">+</span>
+          </button>
+          <div class="accordion__panel">
+            <p data-i18n="faq.a4">Nous desservons Gatineau, QC, Ottawa, ON, et les communautés environnantes des deux côtés de la rivière des Outaouais.</p>
+          </div>
+        </div>
+        <div class="accordion__item">
+          <button class="accordion__trigger" aria-expanded="false">
+            <span data-i18n="faq.q5">La soumission est-elle vraiment gratuite et sans obligation?</span>
+            <span class="accordion__icon">+</span>
+          </button>
+          <div class="accordion__panel">
+            <p data-i18n="faq.a5">Oui. Obtenir une soumission est entièrement gratuit et vous n'êtes jamais obligé de l'accepter.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA banner -->
+  <section class="cta-banner">
+    <div class="container cta-banner__inner">
+      <div>
+        <h2 data-i18n="cta.title">Prêt à transformer votre voiture en argent comptant?</h2>
+        <p data-i18n="cta.sub">Obtenez une soumission gratuite et sans obligation en quelques minutes.</p>
+      </div>
+      <div class="cta-banner__actions">
+        <a href="tel:+18194840270" class="btn btn--accent btn--lg" data-i18n="cta.callBtn">Appelez (819) 484-0270</a>
+        <a href="#quote" class="btn btn--outline-light btn--lg" data-i18n="cta.quoteBtn">Soumission gratuite</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__col">
+      <a href="#top" class="logo logo--footer">
+        <svg width="30" height="30" viewBox="0 0 48 48" fill="none">
+          <rect width="48" height="48" rx="12" fill="#16a34a"/>
+          <path d="M10 30l2.5-8a3 3 0 0 1 2.9-2.1h13.2a3 3 0 0 1 2.9 2.1L34 30" stroke="#0b1e17" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="8" y="30" width="32" height="6" rx="2" fill="#0b1e17"/>
+          <circle cx="16" cy="36" r="3" fill="#f5b700"/>
+          <circle cx="32" cy="36" r="3" fill="#f5b700"/>
+        </svg>
+        <span>ScrapAuto<em>QC</em></span>
+      </a>
+      <p data-i18n="footer.tagline">Argent comptant pour voitures et ramassage de véhicules de ferraille à Gatineau, QC et Ottawa, ON.</p>
+    </div>
+
+    <div class="footer__col">
+      <h4 data-i18n="footer.contactTitle">Contact</h4>
+      <p><a href="https://www.google.com/maps/search/?api=1&query=24+Rue+Noel%2C+Gatineau%2C+QC+J8Z+2M4" target="_blank" rel="noopener">24 Rue Noel, Gatineau, QC J8Z 2M4</a></p>
+      <p><a href="tel:+18194840270">(819) 484-0270</a></p>
+      <p><a href="mailto:info@scrapautoqc.ca">info@scrapautoqc.ca</a></p>
+      <p data-i18n="footer.hours">Ouvert 24/7, tous les jours</p>
+    </div>
+
+    <div class="footer__col">
+      <h4 data-i18n="footer.areasTitle">Zones desservies</h4>
+      <p data-i18n="footer.areasText">Gatineau, Hull, Aylmer, Ottawa, Nepean, Kanata, Orléans, Barrhaven et environs.</p>
+    </div>
+
+    <div class="footer__col">
+      <h4 data-i18n="footer.linksTitle">Liens rapides</h4>
+      <p><a href="#how" data-i18n="nav.how">Comment ça marche</a></p>
+      <p><a href="#why" data-i18n="nav.why">Pourquoi nous</a></p>
+      <p><a href="#faq" data-i18n="nav.faq">FAQ</a></p>
+      <p><a href="#quote" data-i18n="nav.quoteBtn">Soumission gratuite</a></p>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <p>&copy; <span id="footerYear"></span> ScrapAutoQC. <span data-i18n="footer.rights">Tous droits réservés.</span></p>
+  </div>
+</footer>
+
+<!-- Sticky mobile call bar -->
+<a href="tel:+18194840270" class="mobile-call-bar">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1l-2.2 2.2z" fill="currentColor"/></svg>
+  <span data-i18n="mobile.callBar">Appelez maintenant pour une soumission gratuite</span>
+</a>
+
+<script src="js/i18n.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
